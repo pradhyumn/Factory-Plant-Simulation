@@ -21,7 +21,7 @@ shared_mutex m2;
 condition_variable cv1, cv2;
 
 ostream& operator<<(ostream& os, const vector<int>& A);
-//Class queue
+
 class Q {
 	mutex m1;
 	vector<int> Buffer{0,0,0,0,0};
