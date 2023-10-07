@@ -18,7 +18,7 @@ int seed{ 100 };
 vector<int> Buffer{ 0,0,0,0,0 };
 int Products{ 0 };
 ofstream out;
-//Different times might be used during grading; What will be good times to get good performances ?
+
 mutex m11;
 shared_mutex m1, m2;
 condition_variable cv1, cv2;
