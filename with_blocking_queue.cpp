@@ -11,7 +11,7 @@
 using namespace std;
 using namespace literals::chrono_literals;
 using namespace chrono;
-
+//some inits
 const int MaxTimePart{ 180000 }, MaxTimeProduct{ 200000 };
 int Products{ 0 };
 ofstream out;
