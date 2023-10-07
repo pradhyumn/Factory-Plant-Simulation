@@ -11,7 +11,7 @@ using namespace std;
 using namespace literals::chrono_literals;
 using namespace chrono;
 
-
+//Inits
 const int MaxTimePart{ 1800 }, MaxTimeProduct{ 2000 };
 int seed{ 100 };
 
