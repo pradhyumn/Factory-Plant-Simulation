@@ -22,7 +22,7 @@ ofstream out;
 mutex m11;
 shared_mutex m1, m2;
 condition_variable cv1, cv2;
- 
+//Boolean
 once_flag Open_flag;
 system_clock::time_point t1{ system_clock::now() };
 
